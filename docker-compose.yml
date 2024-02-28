@@ -19,6 +19,10 @@ services:
       LOGCONFIG: ./logging.conf
       WORKERS: 1
       APP_MODULE: main:app
+      DB_USERNAME: admin
+      DB_PASSWORD: password
+      DB_HOST: mongo
+      DB_PORT: 27017
     tty: true
     restart: unless-stopped
 
