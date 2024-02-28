@@ -23,7 +23,7 @@ services:
     restart: unless-stopped
 
   mongo:
-    image: mongo:6.0
+    image: mongo:5.0
     ports:
       - 27017:27017
     environment:
